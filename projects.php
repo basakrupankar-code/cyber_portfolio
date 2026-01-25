@@ -34,12 +34,13 @@
         </div>
 
        <div class="project-card">
+        <img src="scanner_preview.png" alt="Scanner Output" style="width:100%; border-radius: 5px; margin-bottom: 10px;">
+    
             <h3>Network Scanner</h3>
             <p>Status: <span style="color: green; font-weight: bold;">Completed</span></p>
-            <p>A Python-based ARP scanner built with Scapy. Discovers active devices on local networks by analyzing MAC addresses.</p>
+            <p>A Python-based ARP scanner built with Scapy. Discovers active devices on local networks.</p>
             <a href="https://github.com/basakrupankar-code/network_scanner" target="_blank">View Source Code</a>
-            </div>
-
+        </div>
     </div>
 
     <script src="matrix.js"></script>
