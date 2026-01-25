@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# If the user asks for a folder that doesn't exist...
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# And if that file exists with a .php extension...
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+# Then silently add .php to the end of the request
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

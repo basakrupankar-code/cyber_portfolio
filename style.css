@@ -1,0 +1,96 @@
+/* --- CYBER CLICK EFFECT --- */
+
+.cyber-pulse {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00ff00; /* Green Ring */
+    background: rgba(0, 255, 0, 0.2); /* Faint green center */
+    border-radius: 50%; /* Make it a circle */
+    pointer-events: none; /* Let clicks pass through it to buttons below */
+    box-shadow: 0 0 15px #00ff00; /* Glowing aura */
+    z-index: 9999; /* On top of everything */
+    animation: pulse-anim 0.5s ease-out forwards;
+}
+
+/* The Animation: Expand and Fade */
+@keyframes pulse-anim {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(8); /* Grow 8x larger */
+        opacity: 0; /* Fade to invisible */
+    }
+}
+
+/* --- MATRIX RAIN SETUP --- */
+
+/* The Canvas sits fixed in the background */
+canvas#matrix-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Push it behind everything */
+}
+
+/* Make the cards slightly transparent so you can see rain behind them */
+.card {
+    background-color: rgba(17, 17, 17, 0.85); /* 85% opacity */
+    border: 1px solid #00ff00; /* Green border ensures visibility */
+}
+
+/* Make sure the body background doesn't hide the canvas */
+body {
+    background-color: black;
+}
+
+/* Hacker Theme */
+body {
+    background-color: #0d0d0d; /* Almost black */
+    color: #00ff00; /* Hacker Green */
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+    margin: 0;
+    padding: 0;
+}
+
+/* The Navigation Bar */
+nav {
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #00ff00;
+    padding: 15px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #00ff00; /* Turn green when hovered */
+}
+
+/* The Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Project Cards */
+.card {
+    border: 1px solid #00ff00;
+    background-color: rgba(17, 17, 17, 0.95);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+}
+
+h1 { text-transform: uppercase; border-bottom: 1px solid #333; padding-bottom: 10px; }
+button { background: #00ff00; color: black; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; }
+button:hover { background: white; }
