@@ -37,10 +37,10 @@
             <p style="color: #00ff00;">Status: <span style="color: #00ffff; font-weight: bold;">COMPLETED</span></p>
             <p style="color: white;">Description: A Python-based ARP scanner built with Scapy. Discovers active devices on local networks.</p>
             <div style="margin-top: 15px;">
-            <a href="https://github.com/basakrupankar-code/network_scanner" target="_blank" style="background-color: #00ff00; color: black; padding: 10px 20px; text-decoration: none; font-weight: bold; display: inline-block; border: 1px solid #00ff00;">VIEW SOURCE CODE</a>
+            <a href="https://github.com/basakrupankar-code/Network_Scanner.git" target="_blank" style="background-color: #00ff00; color: black; padding: 10px 20px; text-decoration: none; font-weight: bold; display: inline-block; border: 1px solid #00ff00;">VIEW SOURCE CODE</a>
             </div>
 
-        </div>
+    </div>
        
     </div>
 
