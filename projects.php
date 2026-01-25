@@ -33,11 +33,12 @@
             <button onclick="window.location.href='https://overthewire.org/wargames/bandit/'">RESUME MISSION</button>
         </div>
 
-        <div class="card" style="opacity: 0.6;">
-            <h2>Project: Network Scanner</h2>
-            <p><strong>Status:</strong> <span style="color:red">PENDING</span></p>
-            <p>Goal: Build a Python script to scan local ports (like Nmap).</p>
-        </div>
+       <div class="project-card">
+            <h3>Network Scanner</h3>
+            <p>Status: <span style="color: green; font-weight: bold;">Completed</span></p>
+            <p>A Python-based ARP scanner built with Scapy. Discovers active devices on local networks by analyzing MAC addresses.</p>
+            <a href="https://github.com/basakrupankar-code/network_scanner" target="_blank">View Source Code</a>
+            </div>
 
     </div>
 
