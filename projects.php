@@ -32,15 +32,16 @@
             <br>
             <button onclick="window.location.href='https://overthewire.org/wargames/bandit/'">RESUME MISSION</button>
         </div>
+        <div class="project-card" style="border: 1px solid #00ff00; background-color: black; padding: 15px; margin-top: 20px; font-family: 'Courier New', monospace;">
+            <h3 style="color: #00ff00; margin-top: 0;">Tool: Network Scanner</h3>
+            <p style="color: #00ff00;">Status: <span style="color: #00ffff; font-weight: bold;">COMPLETED</span></p>
+            <p style="color: white;">Description: A Python-based ARP scanner built with Scapy. Discovers active devices on local networks.</p>
+            <div style="margin-top: 15px;">
+            <a href="https://github.com/basakrupankar-code/network_scanner" target="_blank" style="background-color: #00ff00; color: black; padding: 10px 20px; text-decoration: none; font-weight: bold; display: inline-block; border: 1px solid #00ff00;">VIEW SOURCE CODE</a>
+            </div>
 
-       <div class="project-card">
-        <img src="scanner_preview.png" alt="Scanner Output" style="width:100%; border-radius: 5px; margin-bottom: 10px;">
-    
-            <h3>Network Scanner</h3>
-            <p>Status: <span style="color: green; font-weight: bold;">Completed</span></p>
-            <p>A Python-based ARP scanner built with Scapy. Discovers active devices on local networks.</p>
-            <a href="https://github.com/basakrupankar-code/network_scanner" target="_blank">View Source Code</a>
         </div>
+       
     </div>
 
     <script src="matrix.js"></script>
